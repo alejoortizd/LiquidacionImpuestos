@@ -1,5 +1,8 @@
 const app = require('./app');
+const { config } = require('./config')
 
-app.listen(3000, () => {
+const host = '0.0.0.0';
+const port = config.port;
+app.listen(port, host, () => {
   console.log('Funcionando')
 })
