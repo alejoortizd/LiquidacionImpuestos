@@ -10,8 +10,7 @@ function calcularValor(req, res) {
   let valorPagar = valor;
   let resta = 0;
   let valorDescuento = 0;
-  let respuesta;
-  
+  let respuesta;  
 
   if(valor < 48029000) {
     valorPagar *= 0.015
