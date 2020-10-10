@@ -1,0 +1,15 @@
+<div class="card">
+  <div class="card-header">
+    <h1>Liquidacion Final</h1>
+  </div>
+  <div class="card-body">
+    <h2 class="card-title"><strong>Total a Pagar</strong></h2>
+    <h4 class="card-text">El avaluo comercial es <strong>{{valorF}} pon este valor en la casilla <strong>35</strong></h4>
+    <h4 class="card-text">El valor a pagar es <strong>{{valorPagarF}} pon este valor en la casilla <strong>36</strong></h4>
+    {{#if respuesta}}
+      <h1 class="card-title"><strong>Actualmente tienes descuento</strong></h1>
+      <h2 class="card-text">El descuento es <strong>{{restaF}}</strong> pon este valor en la casilla <strong>37</strong></h2>
+      <h2 class="card-text">El nuevo valor a pagar es <strong>{{valorDescuentoF}}</strong> pon este valor en la casilla <strong>41</strong></h2>
+    {{/if}}
+  </div>
+</div>
