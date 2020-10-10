@@ -11,7 +11,7 @@
   <div class="card-body">
     <form action="/calcular" method="POST">
       <div class="form-group">
-        <input type="number" class="form-control" name="valor" placeholder="Ingresa el valor comercial">
+        <input type="number" class="form-control" name="valor" placeholder="Ingresa el valor comercial" value="{{valor}}">
       </div>
       <h2>Descuento</h2>
       <div class="form-check form-check-inline">
@@ -25,7 +25,7 @@
       <p>Si la respuesta fue si por favor ingresa el descuento del año. por ejemplo si el
         descuento es el 20% ingresa 20</p>
       <div class="form-group">
-        <input type="number" class="form-control" name="descuento" placeholder="ejemplo: 20">
+        <input type="number" class="form-control" name="descuento" placeholder="ejemplo: 20" value="{{descuento}}">
       </div>
       <button class="btn btn-primary btn-block">
         Calcular
